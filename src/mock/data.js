@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'wanderlust.png',
+    title: 'Travel Agency',
+    info: 'Responsive travel agency site',
+    info2: 'Technologies: Materialize, Javascript',
+    url: 'https://stupefied-easley-f6ed64.netlify.app//',
+    repo: 'https://github.com/maximilianosinopoli/Wanderlust', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'recipe.png',
     title: 'Recipe App',
     info: 'The app grabs recipes from an external API and allows users to search for specific recipes.',
