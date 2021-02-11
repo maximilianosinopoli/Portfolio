@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'about.jpg',
-  paragraphOne: "I'm a computer science student and a Front End Developer specialised in Javascript technologies based in London, UK.",
-  paragraphTwo: 'I stand out for being an extremely curious person, with a proactive personality and a passion for learning new and exciting things. I love challenges that require logic and critical thinking to overcome.',
-  paragraphThree: "Recently I've done a programming bootcamp over 300 hours. I've learned technologies like React, NodeJS, Express, MongoDB, Mongoose, MySQL, Hooks, HTML and CSS. I like also travel, photography, reading, outdoor sports and learn new languages.",
+  paragraphOne: "I'm a computer science student and a Front End Developer specialised in Javascript technologies based in London, UK. I stand out for being an extremely curious person, with a proactive personality and a passion for learning new and exciting things. I love challenges that require logic and critical thinking to overcome.",
+  paragraphTwo: "Recently I've done a programming bootcamp over 300 hours. I've learned technologies like React, NodeJS, Express, MongoDB, Mongoose, MySQL, Hooks, HTML and CSS. I like also travel, photography, reading, outdoor sports and learn new languages.",
+  paragraphThree: "If you’d like to learn more about what makes me tick, feel free to send a message. Email: m_sinopoli@hotmail.com || Phone Number: +44 7593902107",
   resume: '', // if no resume, the button will not show up
 };
 
@@ -30,9 +30,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'wanderlust.png',
     title: 'Travel Agency',
-    info: 'Responsive travel agency site',
-    info2: 'Technologies: Materialize, Javascript',
-    url: 'https://stupefied-easley-f6ed64.netlify.app//',
+    info: 'Responsive travel agency site develop with the Materialize CSS.',
+    info2: 'Technologies: Javascript, Materialize.',
+    url: 'https://travel-agency-site.netlify.app/',
     repo: 'https://github.com/maximilianosinopoli/Wanderlust', // if no repo, the button will not show up
   },
   {
@@ -40,8 +40,8 @@ export const projectsData = [
     img: 'recipe.png',
     title: 'Recipe App',
     info: 'The app grabs recipes from an external API and allows users to search for specific recipes.',
-    info2: 'Technologies: Javascript, React, Hook, CSS',
-    url: 'https://compassionate-bhabha-585153.netlify.app/',
+    info2: 'Technologies: Javascript, React, Hooks, CSS',
+    url: 'https://lets-eat-react.netlify.app/',
     repo: 'https://github.com/maximilianosinopoli/Recipe-App', // if no repo, the button will not show up
   }
 ];
