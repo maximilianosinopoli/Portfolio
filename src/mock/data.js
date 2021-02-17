@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'todo.png',
+    title: 'To Do List',
+    info: 'The clasic "To Do List" built in Vanilla Javascript, allows the user to insert new tasks, delete each one, filter the research and delete all of them. The next version will include Local Storage as well.',
+    info2: 'Technologies: Javascript, Materialize.',
+    url: 'https://todo-list-vanilla-js.netlify.app/',
+    repo: 'https://github.com/maximilianosinopoli/Todo-Vanilla', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'wanderlust.png',
     title: 'Travel Agency',
     info: 'Responsive travel agency site develop with the Materialize CSS.',
